@@ -1,4 +1,17 @@
-"use sctrict";
+"use strict";
 
-const result = confirm("Are you here?");
-console.log(result);
+let incr = 10,
+    decr = 10;
+
+incr ++;
+decr --;
+
+console.log(incr);
+console.log(decr);
+
+
+console.log(4 + 2 * 2 === 8);
+
+const isChecked = true,
+        isClose = true;
+console.log(isChecked && isClose);
